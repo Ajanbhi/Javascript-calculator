@@ -1,0 +1,58 @@
+<html>
+<head>
+<title> javascript calculater</title>
+
+<style>
+h1{
+
+text-align:center;
+background-color:skyblue;
+color:white;
+}
+
+#clear{
+width:270px;
+height:50px;
+border:3px solodgrey;
+border-radius:3px;
+padding:20px;
+background-color:red;
+}
+
+.formstyle{
+border:2px skyblue;
+height:560px;
+width:300px;
+border-radius:5px;
+padding:20px;
+}
+
+input{
+width:20px;
+background-color:green;
+border:2px solid grey;
+border-radius:5px;
+padding:20px;
+}
+
+#cal{
+width:250px;
+border:3px solid black;
+border-radius:3px;
+background-color:green;
+padding:20px;
+}
+
+</style>
+
+</head>
+<body>
+<h1> calculate the program</h1>
+<div class="formstyle">
+<form name= "form1">
+
+<input id="calc" type="text" name="answer"> <br> <br>
+
+
+<input type ="button" value ="1" onclick="form1.answer.value +='1' ">
+<input type="button" value="2" onclick="form1.answer.value+='2'">
